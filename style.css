@@ -1,0 +1,38 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url(header.jpg);
+  background-size:cover;
+}
+h1{
+  color: white;
+}
+.btn{
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: uppercase;
+}
+.btn-danger{
+  background-color: rgb(128, 47, 0);
+  border-color: rgb(255, 115, 0);
+  border-width: 1px;
+  /*btn-danger is a bootstrap class so it will restore its original properties when cursor will be placed on it*/
+}
+.btn-xl{
+  padding: 1rem 2rem;
+  /*Increases size of button*/
+}
+h1{
+  margin-top: 18rem;
+}
+.buffer{
+  height: 10rem;
+}
+hr{
+  border-color: red;
+  border-width: 3px;
+  max-width: 65px;
+  /*max-width adjusts the line width(i.ehow long it will be) of line*/
+}
